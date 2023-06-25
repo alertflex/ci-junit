@@ -105,6 +105,7 @@ public class AlertflexControllerRest {
     String convertParamsToJson() {
         return "{\"delay\": " + delay + "," +
                 "\"postureType\": \"" + postureType + "\"," +
+                "\"alertCorr\": \"" + alertCorr + "\"," +
                 "\"target\": \"" + target + "\"," +
                 "\"host\": \"" + host + "\"," +
                 "\"node\": \"" + node + "\"," +
