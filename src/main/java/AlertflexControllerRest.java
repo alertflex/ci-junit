@@ -13,6 +13,7 @@ public class AlertflexControllerRest {
     String url;
     int delay;
     String postureType;
+    String alertCorr;
     String target;
     String host;
     String node;
@@ -21,6 +22,7 @@ public class AlertflexControllerRest {
     public AlertflexControllerRest(String url,
                                    int delay,
                                    String postureType,
+                                   String alertCorr,
                                    String target,
                                    String host,
                                    String node,
@@ -28,6 +30,7 @@ public class AlertflexControllerRest {
         this.url = url;
         this.delay = delay;
         this.postureType = postureType;
+        this.alertCorr = alertCorr;
         this.target = target;
         this.host = host;
         this.node = node;
