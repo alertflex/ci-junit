@@ -1,2 +1,2 @@
 # ci-junit
-Integration alertflex to CI/CD pipeline as JUnit tests
+Integration alertflex to CI/CD pipeline via JUnit tests
